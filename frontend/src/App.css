@@ -1,0 +1,169 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 4rem;
+  background-color: aqua;
+  padding: 0.5rem 3rem;
+}
+
+.left_btn {
+  border-radius: 10px;
+  padding: 6px !important;
+  font-weight: 500;
+  border: 3px solid black;
+  transition: border 0.3s ease-in-out
+}
+
+.left_btn:hover {
+  border-color: white;
+}
+
+.search {
+  background: none;
+  outline: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: 3px solid black;
+  transition: border 0.3s ease-in-out
+}
+
+.search:hover {
+  border-color: white;
+}
+
+.search_btn {
+  border-radius: 50%;
+  padding: 6px !important;
+  border: 3px solid black;
+}
+
+.search_btn:hover {
+  color: white;
+}
+
+.name_div {
+  height: 30rem;
+}
+
+.name_div input[type="text"] {
+  width: 30%;
+  border-radius: 35px;
+  padding: 1rem 2rem;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background: none;
+  border: 3px solid aqua;
+  color: white;
+}
+
+.enter_btn {
+  font-weight: 550;
+  border-radius: 15px;
+  font-size: 25px;
+  padding: 1rem 2.5rem !important;
+  background-color: aqua;
+}
+
+.enter_btn:hover {
+  border: 3px solid aqua;
+  background: none;
+  color: aqua;
+}
+
+.text_input {
+  width: 35rem;
+}
+
+.text_input input[type="text"] {
+  width: 100%;
+  border-radius: 35px;
+  padding: 1rem 2rem;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background: none;
+  border: 3px solid aqua;
+  color: white;
+}
+
+.text_input textarea {
+  width: 100%;
+  resize: none;
+  border-radius: 35px;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  border: 3px solid aqua;
+  color: white;
+}
+
+.add_btn {
+  font-weight: 550;
+  border-radius: 15px;
+  font-size: 25px;
+  padding: 0.2rem 2rem !important;
+  background-color: aqua;
+}
+
+.text_input input[type="datetime-local"] {
+  width: 20rem;
+  border-radius: 35px;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  border: 3px solid aqua;
+  color: white;
+}
+
+.todos_box {
+  background-color: aqua;
+  border: 5px dashed black;
+  color: black;
+  padding: 1rem 2rem;
+  height: 30rem;
+}
+
+.todos_box h3 {
+  height: 4rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.description_box {
+  height: 70%;
+  overflow-x: auto;
+}
+
+.icon_btn {
+  padding: 10px !important;
+  border-radius: 100%;
+  border: 3px solid black;
+}
+
+.modal-content {
+  border: 3px solid aqua;
+  background-color: rgb(20, 20, 20);
+}
+
+.top-0 {
+  top: 2% !important
+}
+
+.start-100 {
+  left: 90% !important;
+}
